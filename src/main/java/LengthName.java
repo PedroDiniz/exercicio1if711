@@ -14,7 +14,7 @@ public class LengthName extends HttpServlet {
 		resp.getWriter().println("<html>");
         resp.getWriter().println("<body>");
 		if(nome!=null){
-			resp.getWriter().println("Seu nome ("+ nome +") tem "+ nome.length() +" letras");
+			resp.getWriter().println("Seu nome ("+ nome +") tem "+ nome.length() +" letras!");
 		}else{
 			resp.getWriter().println("Sem nome!");
 		}
